@@ -7,6 +7,9 @@
 .centralizar{
 text-align: center;
  }
+ .justify{
+     text-align: justify;
+ }
 
 .container{
     display: flex;
@@ -38,5 +41,21 @@ padding: 30px;
 .wh{
     width: 300px;
     height: 300px;
-    
+}
+.tm-social{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    padding: 10px;
+}
+.mb-50{
+    margin-bottom: 50px;
+}
+/* estilos da pagina de contato */
+.ml-50{
+margin-left: 50px;
+}
+body{
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
 }
