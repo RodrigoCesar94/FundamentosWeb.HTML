@@ -47,7 +47,7 @@ function validaAssunto(){
      txtAssunto.style.color = 'yellow';
     }
     if(assunto.value.length < 100){
-        //contador de caracteres
+        //contador de caracteres, verificação
     txtAssunto.innerHTML= 100-assunto.value.length;
     assuntoOk=true
     }
